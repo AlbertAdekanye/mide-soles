@@ -43,11 +43,15 @@ function Navbar() {
 
         {/* Desktop order button */}
         <a
-          href="#shop"
+          href={`https://wa.me/2349058647535?text=${encodeURIComponent(
+            "Hello Mide Soles, I would like to enquire about your shoes.",
+          )}`}
+          target="_blank"
+          rel="noreferrer"
           className="hidden items-center gap-2 rounded-full bg-[#08090a] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#7c6ee6] md:flex"
         >
           <ShoppingBag size={17} />
-          Shop now
+          Order now
         </a>
 
         {/* Mobile menu button */}
@@ -78,12 +82,16 @@ function Navbar() {
             ))}
 
             <a
-              href="#shop"
+              href={`https://wa.me/2349058647535?text=${encodeURIComponent(
+                "Hello Mide Soles, I would like to enquire about your shoes.",
+              )}`}
+              target="_blank"
+              rel="noreferrer"
               onClick={closeMenu}
               className="mt-4 flex items-center justify-center gap-2 rounded-full bg-[#08090a] px-5 py-3.5 text-sm font-semibold text-white"
             >
               <ShoppingBag size={18} />
-              Shop now
+              Order now
             </a>
           </div>
         </div>
