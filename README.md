@@ -39,7 +39,7 @@ Add the deployed website link here:
 ## Project Structure
 
 ```text
-soft-soles/
+mide-soles/
 ├── public/
 │   ├── images/
 │   └── favicon.svg
@@ -90,13 +90,13 @@ npm --version
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/soft-soles.git
+git clone https://github.com/YOUR-USERNAME/mide-soles.git
 ```
 
 Enter the project directory:
 
 ```bash
-cd soft-soles
+cd mide-soles
 ```
 
 Install the dependencies:
