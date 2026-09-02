@@ -8,7 +8,7 @@ The website showcases handmade shoes, ready-to-wear footwear and custom-order se
 
 Add the deployed website link here:
 
-[View Mide Soles](https://your-website-link.vercel.app)
+[View Mide Soles](https://mide-soles.vercel.app/)
 
 ## Features
 
@@ -90,7 +90,7 @@ npm --version
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/mide-soles.git
+git clone https://github.com/AlbertAdekanye/mide-soles.git
 ```
 
 Enter the project directory:
@@ -200,8 +200,8 @@ const whatsappNumber = "2348012345678";
 Replace the placeholder links in the Contact and Footer components:
 
 ```js
-const instagramLink = "https://instagram.com/your-username";
-const tiktokLink = "https://tiktok.com/@your-username";
+
+const tiktokLink = "https://tiktok.com/@midesoles247";
 ```
 
 ## Deployment
