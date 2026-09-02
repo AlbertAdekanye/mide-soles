@@ -52,7 +52,7 @@ function Services() {
               <Sparkles size={17} />
 
               <p className="text-sm font-bold uppercase tracking-[0.3em]">
-                The Soft Soles difference
+                The Mide Soles difference
               </p>
             </div>
 

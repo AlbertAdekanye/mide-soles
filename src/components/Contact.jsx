@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {
   ArrowUpRight,
-  Camera,
+  // Camera,
   MapPin,
   MessageCircle,
   Send,
@@ -15,11 +15,11 @@ function Contact() {
   });
 
   // Replace this with the correct WhatsApp number.
-  const whatsappNumber = "+2349058647535";
+  const whatsappNumber = "+2349137091248";
 
   // Replace these links later.
-  const instagramLink = "#";
-  const tiktokLink = "#";
+  // const instagramLink = "#";
+  const tiktokLink = "https://www.tiktok.com/@midesoles247?_r=1&_t=ZS-99N2A3nHUf3";
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -122,7 +122,7 @@ ${formData.message}
               </p>
 
               <div className="flex flex-wrap gap-3">
-                <a
+                {/* <a
                   href={instagramLink}
                   target="_blank"
                   rel="noreferrer"
@@ -130,7 +130,7 @@ ${formData.message}
                 >
                   <Camera size={17} />
                   Instagram
-                </a>
+                </a> */}
 
                 <a
                   href={tiktokLink}

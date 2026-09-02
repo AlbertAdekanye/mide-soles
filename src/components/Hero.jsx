@@ -85,7 +85,7 @@ function Hero() {
         <div className="relative min-h-[420px] overflow-hidden lg:min-h-full">
           <div className="absolute inset-5 overflow-hidden rounded-[1.6rem] bg-[#aca2f6] lg:inset-7 lg:left-0">
             <img
-              src="https://deltoroshoes.com/cdn/shop/files/Homepage_Hero_Banner_-_3200_x_1650_9.png?v=1757784700&width=3000"
+              src="/images/products/olive-buckle-slides.png"
               alt="Premium shoes displayed on a neutral background"
               className="h-full w-full object-cover"
             />

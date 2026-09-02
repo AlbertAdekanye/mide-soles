@@ -43,7 +43,7 @@ function Navbar() {
 
         {/* Desktop order button */}
         <a
-          href={`https://wa.me/2349058647535?text=${encodeURIComponent(
+          href={`https://wa.me/2349137091248?text=${encodeURIComponent(
             "Hello Mide Soles, I would like to enquire about your shoes.",
           )}`}
           target="_blank"
@@ -82,7 +82,7 @@ function Navbar() {
             ))}
 
             <a
-              href={`https://wa.me/2349058647535?text=${encodeURIComponent(
+              href={`https://wa.me/2349137091248?text=${encodeURIComponent(
                 "Hello Mide Soles, I would like to enquire about your shoes.",
               )}`}
               target="_blank"

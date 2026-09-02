@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 import ProductCard from "./ProductCard";
 import { products } from "../data/products";
 
-const categories = ["All", "Handmade", "Sneakers", "Women"];
+const categories = ["All", "Slides", "Sandals", "Mules"];
 
 function Products() {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -76,7 +76,7 @@ function Products() {
           </div>
 
           <a
-            href="https://wa.me/+2349058647535"
+            href="https://wa.me/+2349137091248"
             target="_blank"
             rel="noreferrer"
             className="flex shrink-0 items-center gap-3 rounded-full bg-[#aca2f6] px-6 py-4 text-sm font-bold text-[#08090a] transition hover:bg-white"

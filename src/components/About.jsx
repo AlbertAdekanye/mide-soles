@@ -35,9 +35,7 @@ function About() {
           {/* Image */}
           <div className="relative min-h-[500px] overflow-hidden rounded-[2rem] bg-[#c3bbf1] lg:min-h-[700px]">
             <img
-              src="https://www.charixshoes.com/cdn/shop/collections/Cream-DIagonal---50-13-ISO-125--_extra-light.jpg?v=1713558637"
-              alt="Carefully crafted cream leather shoes"
-              loading="lazy"
+              src="images/products/white-cross-slides.png"
               onError={(event) => {
                 event.currentTarget.onerror = null;
                 event.currentTarget.src =

@@ -1,7 +1,7 @@
 import { ArrowUpRight, MessageCircle } from "lucide-react";
 
 function ProductCard({ product }) {
-  const whatsappNumber = "+2349058647535";
+  const whatsappNumber = "+2349137091248";
 
   const message = encodeURIComponent(
     `Hello Mide Soles, I am interested in the ${product.name}. Please tell me more about it.`,

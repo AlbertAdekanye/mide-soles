@@ -1,6 +1,6 @@
 import {
   ArrowUp,
-  Camera,
+  // Camera,
   MapPin,
   MessageCircle,
 } from "lucide-react";
@@ -17,9 +17,9 @@ function Footer() {
   const currentYear = new Date().getFullYear();
 
   // Replace these details later.
-  const whatsappNumber = "2340000000000";
-  const instagramLink = "#";
-  const tiktokLink = "#";
+  const whatsappNumber = "2349137091248";
+  // const instagramLink = "#";
+  const tiktokLink = "https://www.tiktok.com/@midesoles247?_r=1&_t=ZS-99N2A3nHUf3";
 
   return (
     <footer className="bg-[#08090a] px-4 pb-5 pt-16 text-white sm:px-6 lg:pt-20">
@@ -81,7 +81,7 @@ function Footer() {
                 WhatsApp
               </a>
 
-              <a
+              {/* <a
                 href={instagramLink}
                 target="_blank"
                 rel="noreferrer"
@@ -89,7 +89,7 @@ function Footer() {
               >
                 <Camera size={17} />
                 Instagram
-              </a>
+              </a> */}
 
               <a
                 href={tiktokLink}
