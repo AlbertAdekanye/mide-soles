@@ -1,7 +1,8 @@
 import { ArrowUpRight, MessageCircle } from "lucide-react";
 
 function ProductCard({ product }) {
-  const whatsappNumber = "+2349137091248";
+  // WhatsApp requires international format without the + symbol.
+  const whatsappNumber = "2349137091248";
 
   const message = encodeURIComponent(
     `Hello Mide Soles, I am interested in the ${product.name}. Please tell me more about it.`,
@@ -12,12 +13,29 @@ function ProductCard({ product }) {
   return (
     <article className="group">
       <div className="relative aspect-[4/5] overflow-hidden rounded-[1.75rem] bg-[#c0cacc]">
-        <img
-          src={product.image}
-          alt={product.name}
-          loading="lazy"
-          className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
-        />
+        {product.image ? (
+          <img
+            src={product.image}
+            alt={product.name}
+            loading="lazy"
+            onError={(event) => {
+              event.currentTarget.style.display = "none";
+              event.currentTarget.nextElementSibling?.classList.remove("hidden");
+            }}
+            className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+          />
+        ) : null}
+
+        {/* Image fallback */}
+        <div
+          className={`absolute inset-0 items-center justify-center bg-[#c3bbf1] ${
+            product.image ? "hidden" : "flex"
+          }`}
+        >
+          <p className="text-sm font-bold uppercase tracking-wider text-[#485693]">
+            Image coming soon
+          </p>
+        </div>
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-60" />
 
@@ -57,10 +75,10 @@ function ProductCard({ product }) {
           href={whatsappLink}
           target="_blank"
           rel="noreferrer"
-          className="mt-4 flex items-center gap-2 text-sm font-bold text-[#485693] transition hover:text-[#7c6ee6]"
+          className="mt-4 flex items-center gap-2 text-sm font-bold text-[#485693] transition}"
         >
-          <MessageCircle size={17} />
-          Enquire on WhatsApp
+          <MessageCircle size={16} />
+          <span>Enquire</span>
         </a>
       </div>
     </article>
